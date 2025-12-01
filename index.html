@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lane Lords VR - VR Action Roguelite</title>
+    <meta name="description" content="Lane Lords VR - A VR lane defense roguelite. Blast enemies with magic pistols, upgrade your army, and grow stronger across runs.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
+            color: #eee;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .logo {
+            max-width: 350px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #f4c542;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .tagline {
+            color: #c9a227;
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+        }
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            margin-bottom: 40px;
+            color: #ccc;
+        }
+        .platforms {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 50px;
+        }
+        .platform-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #f4c542 0%, #c9a227 100%);
+            color: #1a1a2e;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .platform-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(244, 197, 66, 0.4);
+        }
+        .platform-btn.secondary {
+            background: linear-gradient(135deg, #4a4a6a 0%, #3a3a5a 100%);
+            color: #eee;
+        }
+        .platform-btn.secondary:hover {
+            box-shadow: 0 5px 20px rgba(255, 255, 255, 0.2);
+        }
+        .features {
+            text-align: left;
+            background: rgba(255,255,255,0.05);
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
+        .features h2 {
+            color: #f4c542;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .features ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .features li {
+            padding: 10px 15px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 6px;
+            border-left: 3px solid #f4c542;
+        }
+        .socials {
+            margin-bottom: 40px;
+        }
+        .socials h3 {
+            color: #f4c542;
+            margin-bottom: 15px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .social-links a {
+            color: #ccc;
+            text-decoration: none;
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+        .social-links a:hover {
+            background: rgba(255,255,255,0.2);
+            color: #f4c542;
+        }
+        footer {
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            color: #888;
+        }
+        footer a {
+            color: #f4c542;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .coming-soon {
+            display: inline-block;
+            background: #c9a227;
+            color: #1a1a2e;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Replace src with your actual logo file -->
+        <img src="logo.png" alt="Lane Lords VR Logo" class="logo">
+        
+        <p class="coming-soon">🎮 COMING DECEMBER 2025</p>
+        
+        <p class="tagline">A VR Lane Defense Roguelite</p>
+        
+        <p class="description">
+            Wield dual magic pistols as you defend your lane against waves of enemies. 
+            Upgrade towers mid-battle, complete side objectives for bonus rewards, 
+            and build permanent power across runs. Choose your map, set your difficulty, 
+            and become the ultimate Lane Lord!
+        </p>
+
+        <div class="platforms">
+            <a href="#" class="platform-btn">Wishlist on Steam</a>
+            <a href="#" class="platform-btn">Meta Quest Store</a>
+            <a href="#" class="platform-btn secondary">Join Discord</a>
+        </div>
+
+        <div class="features">
+            <h2>⚔️ Features</h2>
+            <ul>
+                <li>🔫 Dual magic pistols with auto-fire combat</li>
+                <li>🏰 Upgrade towers and minions mid-battle</li>
+                <li>💰 Gold to Platinum economy system</li>
+                <li>📈 Permanent progression between runs</li>
+                <li>🌲 Side objectives and exploration</li>
+                <li>👹 Boss battles on harder difficulties</li>
+                <li>🎯 Ability trees and stat upgrades</li>
+                <li>🎮 Full VR comfort options</li>
+            </ul>
+        </div>
+
+        <div class="socials">
+            <h3>Follow Development</h3>
+            <div class="social-links">
+                <a href="https://twitter.com/LaneLordsVR" target="_blank">Twitter</a>
+                <a href="https://instagram.com/LaneLordsVR" target="_blank">Instagram</a>
+                <a href="https://tiktok.com/@LaneLordsVR" target="_blank">TikTok</a>
+                <a href="https://youtube.com/@LaneLordsVR" target="_blank">YouTube</a>
+                <a href="#" target="_blank">Discord</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 Lane Lords VR. All rights reserved.</p>
+            <p>
+                <a href="privacy.html">Privacy Policy</a> | 
+                <a href="support.html">Support</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
